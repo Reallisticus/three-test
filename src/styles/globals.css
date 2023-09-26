@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+canvas {
+  z-index: 1;
+  position: absolute;
+}
+
+@layer components {
+  .radial-gradient {
+    background: radial-gradient(circle at bottom right, #363636, #191919);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #modal {
+    opacity: 0;
+    transform: scale(0.7);
+    transition:
+      opacity 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+    display: none; /* or however you are hiding it */
+  }
+
+  #modal.show {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

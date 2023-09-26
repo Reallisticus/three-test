@@ -9,17 +9,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.14.2",
     "@t3-oss/env-nextjs": "^0.6.0",
+    "alea": "^1.0.1",
     "next": "^13.4.19",
+    "noisejs": "^2.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "simplex-noise": "^4.0.1",
+    "three": "^0.156.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.2",
     "@types/node": "^18.16.0",
+    "@types/noisejs": "^0.0.28",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
+    "@types/three": "^0.156.0",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
     "autoprefixer": "^10.4.14",

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "San Francisco",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "id": 1
+  },
+  {
+    "name": "Tokyo",
+    "lat": 35.6895,
+    "lng": 139.6917,
+    "id": 2
+  },
+  {
+    "name": "London",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "id": 3
+  },
+  {
+    "name": "New York",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "id": 4
+  },
+  {
+    "name": "Sydney",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "id": 5
+  },
+  {
+    "name": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "id": 6
+  },
+  {
+    "name": "Berlin",
+    "lat": 52.52,
+    "lng": 13.405,
+    "id": 7
+  },
+  {
+    "name": "Mumbai",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "id": 8
+  },
+  {
+    "name": "Rio de Janeiro",
+    "lat": -22.9068,
+    "lng": -43.1729,
+    "id": 9
+  },
+  {
+    "name": "Beijing",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "id": 10
+  }
+]
