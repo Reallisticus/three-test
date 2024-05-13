@@ -170,7 +170,6 @@ const Octohedron = () => {
     let time = 0;
     let nextShapeTime = 0;
     let lineDrawProgress = 0;
-    let sphereMoveProgress = 0;
 
     const animate = () => {
       time += 0.01;
@@ -212,9 +211,10 @@ const Octohedron = () => {
 
           // Update opacity for a smooth fade in and fade out
           if (shape.lifetime < 1) {
-            shape.mesh.material.opacity = shape.lifetime;
+            (shape.mesh.material as THREE.Material).opacity = shape.lifetime;
           } else if (shape.lifetime > 4) {
-            shape.mesh.material.opacity = 5 - shape.lifetime;
+            (shape.mesh.material as THREE.Material).opacity =
+              5 - shape.lifetime;
           }
 
           // Remove the shape if its lifetime exceeds 5

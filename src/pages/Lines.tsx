@@ -1,7 +1,6 @@
 // components/DotPlane.tsx
 import React, { useRef, useEffect } from "react";
 import Dot from "../components/dot.component";
-import { createNoise3D } from "simplex-noise";
 
 const DotPlane: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -21,7 +20,6 @@ const DotPlane: React.FC = () => {
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
-    const simplex = createNoise3D();
     const animate = () => {
       requestAnimationFrame(animate);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
